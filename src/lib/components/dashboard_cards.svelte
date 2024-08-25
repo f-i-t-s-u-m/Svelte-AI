@@ -16,7 +16,7 @@
             clip-rule="evenodd"></path>
         </svg>
         <h2 class="my-3 text-2xl font-bold md:text-4xl">How we work?</h2>
-        <p class="text-gray-600">We follow our process to get you started as quickly as possible</p>
+        <p class="text-gray-600">Discover our step-by-step process for creating, training, and launching your custom AI bot.</p>
       </div>
       <div
         class="mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-1 lg:grid-cols-2  lg:divide-y-0 xl:grid-cols-4">
@@ -33,8 +33,7 @@
             </svg>
             <div class="space-y-2">
               <h5 class="text-xl font-semibold text-white transition">Create Project</h5>
-              <p class="text-gray-300">We will have discussions on the requirements to ensure your MVP (Minimum Viable
-                Product) is ready for the initial launch</p>
+              <p class="text-gray-300">Start by creating a new project where you can upload and organize your custom data. This is the foundation of your AI bot's knowledge base.</p>
             </div>
             <!-- <button  >Create Project</button> -->
             <button on:click={() => showModal = true} type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Create project</button>
@@ -53,7 +52,7 @@
             </svg>
             <div class="space-y-2">
               <h5 class="text-xl font-semibold text-white transition group-hover:text-secondary">Train Your Bot</h5>
-              <p class="text-gray-300">Once we agree on what to build, We will start working on it right away.</p>
+              <p class="text-gray-300">Equip your bot with intelligence by training it on your custom data. Fine-tune its responses to align with your specific needs.</p>
             </div>
           </div>
         </div>
@@ -72,8 +71,7 @@
             </svg>
             <div class="space-y-2">
               <h5 class="text-xl font-semibold text-white transition group-hover:text-secondary">Integrate Your Bot</h5>
-              <p class="text-gray-300">We will develop your product MVP in 15 days (more time required depending on the
-                complexity of the project)</p>
+              <p class="text-gray-300">Seamlessly integrate your trained bot into your platforms, whether it's a website, app, or other interfaces, and start interacting with users.</p>
             </div>
           </div>
         </div>
@@ -92,7 +90,7 @@
             <div class="space-y-2">
               <h5 class="text-xl font-semibold text-white transition group-hover:text-secondary">Celebrate your Launch
               </h5>
-              <p class="text-gray-300">We love Celebrations. We will celebrate your launch on our Social Profiles.</p>
+              <p class="text-gray-300">Your AI bot is now live! Celebrate this milestone and watch as your custom bot starts making a real impact.</p>
             </div>
           </div>
         </div>

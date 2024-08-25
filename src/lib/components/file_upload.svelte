@@ -18,11 +18,15 @@
     }
   </style>
 
-  
-  <form method="POST" action="?/create" enctype="multipart/form-data" use:enhance>
+  <div class="flex py-10 ">
+    <div class="flex-1">
+      <h1 class=" block text-lg font-medium text-gray-700">Train Your AI Powered Bot</h1>
+      <p>Enhance your AI bot's intelligence by training it with your custom data for accurate and tailored responses.</p>
+    </div>
+  <form class="flex-1" method="POST" action="?/create" enctype="multipart/form-data" use:enhance>
 
       <div class="flex flex-col items-center p-4">
-          <label for="fileInputLable" class="block text-lg font-medium text-gray-700">Upload File</label>
+          <label for="fileInputLable" class=" sr-only">Upload File</label>
           <input
           id="fileInputLable"
           type="file"
@@ -38,5 +42,6 @@
         <button class="hidden" bind:this={submitBtn}>upload</button>
     </div>
 </form>
+</div>
 
   

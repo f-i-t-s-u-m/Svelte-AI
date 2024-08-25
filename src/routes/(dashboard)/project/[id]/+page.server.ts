@@ -22,11 +22,13 @@ export const actions = {
         const {name : file_name, size: file_size, type: file_type} = file
        try {
 
-           await db.insert(files).values({file_name, file_type, file_size, project_id, content:text});
+           const res = await db.insert(files).values({file_name, file_type, file_size, project_id, content:text}).returning();
+           
+           
            return {
             status: 200,
             body: "success",
-            file: file?.name
+            file: res[0]
         }
         } catch  {
             return {

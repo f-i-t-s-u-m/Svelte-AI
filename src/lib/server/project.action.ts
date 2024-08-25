@@ -16,7 +16,7 @@ export async function getProject(id: string) {
 		}
 	});
 
-	console.log(data);
+	// console.log(data);
 	
 
 

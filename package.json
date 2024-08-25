@@ -39,6 +39,7 @@
 		"@ai-sdk/openai": "^0.0.53",
 		"@ai-sdk/svelte": "^0.0.43",
 		"ai": "^3.3.17",
+		"bits-ui": "^0.21.13",
 		"clsx": "^2.1.1",
 		"drizzle-orm": "^0.33.0",
 		"mode-watcher": "^0.4.1",
